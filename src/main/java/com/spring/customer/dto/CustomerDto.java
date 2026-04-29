@@ -16,7 +16,7 @@ public class CustomerDto {
     private BigDecimal annualSpend;
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate lastPurchaseDate;
-    private  static Membership tier;
+    private   Membership tier;
 
     public CustomerDto() { }
 

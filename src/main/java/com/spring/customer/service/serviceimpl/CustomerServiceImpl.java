@@ -215,7 +215,7 @@ public class CustomerServiceImpl implements CustomerService {
 
 
     @Override
-    public Membership calculateTier(Customer customer) {
+    public  Membership calculateTier(Customer customer) {
 
         log.debug("Calculating membership tier for customer. Id: {}",
                 customer.getId());
